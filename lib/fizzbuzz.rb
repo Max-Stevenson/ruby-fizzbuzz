@@ -6,5 +6,7 @@ def fizzbuzz (number)
 		"fizz"
 	when -> (number) {number % 5 == 0}
 		"buzz"
+	else 
+		number
 	end
 end
